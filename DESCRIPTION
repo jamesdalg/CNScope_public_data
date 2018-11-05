@@ -1,0 +1,18 @@
+Package: CNVScopePublicData
+Type: Package
+Title: Neuroblastoma Data for CNVScope
+Version: 0.0.2
+Date: 2018-10-24
+Author: James Dalgeish, Yonghong Wang, Jack Zhu, Paul Meltzer
+Maintainer: James Dalgleish <james.dalgleish@nih.gov>
+BugReports: https://github.com/jamesdalg/CNVScope_public_data/issues/
+Depends: 
+Imports: 
+Suggests: knitr, rmarkdown
+VignetteBuilder: knitr
+URL: https://github.com/jamesdalg/CNVScope_public_data/
+biocViews: 
+Description: Public Data to Create CNV Scope Server. Provides the ability to create interaction maps, discover CNV map domains (edges), gene annotate interactions, and create interactive visualizations of these CNV interaction maps.
+License: BSD_3_clause + file LICENSE
+RoxygenNote: 6.1.0
+LazyData: true
